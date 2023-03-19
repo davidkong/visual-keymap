@@ -22,11 +22,11 @@
             // | CRTL  | ALT | GUI | LOWER |    GUI    | LOWER | SPACE   | --- | DEL  | SPACE |     RAISE     | LEFT  | DOWN | UP |   RIGHT   |
 
             bindings = <
-&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BSPC  &kp AT  &kp SINGLE_QUOTE  &kp COMMA  &kp PERIOD  &kp P  &kp Y  &kp LPAR  &kp RPAR  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp MINUS  &kp LCTRL  &kp A  &kp O  &kp E  &kp U  &kp I  &kp LBKT  &kp RBKT  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &kp SEMICOLON  &kp Q  &kp J  &kp K  &kp X  &kp PG_UP  &kp PG_DN  &kp HOME  &kp END  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &mt RSHFT RET  &kp LCTRL  &kp LALT  &kp LGUI  &mo 3  &kp LGUI  &mo 1  &kp SPACE  &kp DEL  &kp SPACE  &mo 2  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp SINGLE_QUOTE  &kp COMMA  &kp PERIOD  &kp P  &kp Y  &none  &none  &kp F  &kp G  &kp C  &kp R  &kp L  &none  &none  &mt LEFT_CONTROL A  &mt LEFT_ALT O  &mt LEFT_GUI E  &mt LSHFT U  &kp I  &none  &none  &kp D  &mt LEFT_SHIFT H  &mt LEFT_GUI T  &mt LEFT_ALT N  &mt LEFT_CONTROL S  &none  &none  &kp SEMICOLON  &kp Q  &kp J  &kp K  &kp X  &none  &none  &none  &none  &kp B  &kp M  &kp W  &kp V  &kp Z  &none  &none  &none  &none  &none  &lt 0 ESC  &lt 0 DELETE  &lt 0 TAB  &lt 0 RET  &lt 0 BACKSPACE  &lt 2 SPACE  &none  &none  &none  &none
             >;
         };
 
-        lower_layer {
+        Num {
             // --------------------------------------------------------------------------------------------------------------------------
             // | ESC   |  1  |  2  |   3   |   4   |  5  |                   ---              |  6  |  7  |   8  |  9   |  0  |  DEL  |
             // | ESC   |  1  |  2  |   3   |   4   |  5  |   (   |           ---        |  )  |  6  |  7  |   8  |  9   |  0  |  DEL  |
@@ -35,11 +35,11 @@
             // | CRTL  | ALT | GUI | LOWER |     GUI     | LOWER | SPACE   | --- | DEL  |  0  |    RAISE  | LEFT | DOWN | UP  | RIGHT |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans  &trans  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp DEL  &trans  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH  &trans  &trans  &kp KP_MULTIPLY  &kp N4  &kp N5  &kp N6  &kp KP_PLUS  &kp KP_MINUS  &trans  &kp ESC  &kp LGUI  &kp LG(C)  &kp LG(V)  &kp GRAVE  &trans  &trans  &trans  &trans  &kp KP_DIVIDE  &kp N1  &kp N2  &kp N3  &kp RET  &kp RET  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N0  &mo 3  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_BRACKET  &trans  &trans  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &kp SEMICOLON  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL  &trans  &trans  &kp KP_MULTIPLY  &kp N4  &kp N5  &kp N6  &kp KP_PLUS  &trans  &trans  &kp PERIOD  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH  &trans  &trans  &trans  &trans  &kp KP_DIVIDE  &kp N1  &kp N2  &kp N3  &kp RET  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N0  &mo 3  &trans  &trans  &trans  &trans
             >;
         };
 
-        raise_layer {
+        Sym {
             // ----------------------------------------------------------------------------------------------------------------------------
             // | ESC   |  1  |  2  |   3   |  4  |  5  |                   ---                |  6   |  7   |  8   |  9   |  0    |  DEL  |
             // | ESC   |  !  |  @  |   #   |  $  |  %  |   (   |           ---        |  )    |  ^   |  &   |  *   |  (   |  )    |  DEL  |
@@ -52,7 +52,7 @@
             >;
         };
 
-        adjust_layer {
+        Nav {
             // -----------------------------------------------------------------------------------------
             // |  F1   |  F2   |    F3    |    F4     |     F5     | F6 |                   ---                | F7  | F8  |  F9  |  F10 | F11 | F12        |
             // | TAB   |       |          |           |            |    | BOOTL |           ---        |  )    | BT1 | BT2 |  BT3 |  BT4 | BT5 | OUTPUT TGL |
@@ -62,6 +62,24 @@
 
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &none  &none  &none  &none  &none  &bootloader  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &out OUT_TOG  &trans  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PLAY_PAUSE  &none  &reset  &trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &trans  &kp PSCRN  &kp PSCRN  &kp CLCK  &none  &none  &trans  &trans  &trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        Mouse {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        Media {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        Fun {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
