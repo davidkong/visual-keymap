@@ -48,7 +48,7 @@
             // | CRTL  | ALT | GUI | LOWER |    GUI    | LOWER | SPACE   | --- | DEL  | SPACE |    RAISE    | LEFT | DOWN | UP    | RIGHT |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp ESC  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &trans  &trans  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR  &kp DEL  &trans  &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE  &trans  &trans  &kp HOME  &kp PG_UP  &kp PSCRN  &kp UP  &kp GRAVE  &kp TILDE  &trans  &kp ESC  &kp LGUI  &kp LPAR  &kp RPAR  &kp TILDE  &trans  &trans  &trans  &trans  &kp END  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp RET  &trans  &trans  &trans  &mo 3  &trans  &mo 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACE  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp COLON  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp PLUS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp TILDE  &kp EXCL  &kp AT  &kp POUND  &kp PIPE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER  &trans  &trans  &none  &trans  &trans  &trans  &trans
             >;
         };
 
