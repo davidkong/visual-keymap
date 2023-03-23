@@ -48,7 +48,7 @@
             // | CRTL  | ALT | GUI | LOWER |    GUI    | LOWER | SPACE   | --- | DEL  | SPACE |    RAISE    | LEFT | DOWN | UP    | RIGHT |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACE  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp COLON  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp PLUS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp TILDE  &kp EXCL  &kp AT  &kp POUND  &kp PIPE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER  &trans  &trans  &none  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp 0  &kp LESS_THAN  &kp DOLLAR  &kp GREATER_THAN  &kp 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp RIGHT_PARENTHESIS  &kp POUND  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp 0  &kp COLON  &kp ASTERISK  &kp PLUS  &kp 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER  &trans  &trans  &none  &trans  &trans  &trans  &trans
             >;
         };
 
