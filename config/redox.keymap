@@ -57,8 +57,8 @@
 
             bindings = <
 &trans         &trans                &trans             &trans                 &trans        &trans                                        &trans          &trans            &trans             &trans  &trans  &trans
-&trans          &none         &kp LESS_THAN           &kp PIPE       &kp GREATER_THAN      &kp PLUS        &trans                  &trans   &none           &none         &kp CARET          &kp TILDE  &trans  &trans
-&trans  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp RIGHT_PARENTHESIS     &kp POUND        &trans                  &trans  &trans  &kp LEFT_BRACE         &kp MINUS    &kp RIGHT_BRACE   &kp 0  &trans
+&trans          &none         &kp LESS_THAN           &kp PIPE       &kp GREATER_THAN     &kp POUND        &trans                  &trans   &none           &none         &kp CARET          &kp TILDE  &trans  &trans
+&trans  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp RIGHT_PARENTHESIS      &kp PLUS        &trans                  &trans  &trans  &kp LEFT_BRACE         &kp MINUS    &kp RIGHT_BRACE   &kp 0  &trans
 &trans          &none             &kp COLON      &kp SEMICOLON              &kp EQUAL  &kp ASTERISK        &trans  &trans  &trans  &trans  &trans   &kp AMPERSAND  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans
 &trans         &trans                &trans             &trans              &kp SLASH      &kp EXCL  &kp QUESTION                  &trans  &trans           &none            &trans             &trans  &trans  &trans
             >;
