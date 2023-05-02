@@ -5,10 +5,11 @@
  */
 
 #include <behaviors.dtsi>
-#include "dk_behaviors.dtsi"
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/bt.h>
+
+#include "dk_behaviors.dtsi"
 
 / {
     keymap {
