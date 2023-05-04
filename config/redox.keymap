@@ -117,11 +117,11 @@
             // | CRTL  | ALT   |  GUI     |   LOWER   |      GUI        | LOWER | SPACE   | --- | DEL  | SPACE |   RAISE   | LEFT | DOWN | UP  |   RIGHT    |
 
             bindings = <
-&trans  &trans           &trans       &trans  &trans  &trans                                             &trans    &trans         &trans       &trans     &trans  &trans
-&trans   &none        &kp LG(C)    &kp LG(V)   &none  &trans  &trans                      &trans          &kp 0     &kp 0          &kp 0        &kp 0      &kp 0  &trans
-&trans   &kp 0  &kp LG(LS(TAB))  &kp LG(TAB)   &kp 0  &trans  &trans                      &trans     &caps_word  &kp LEFT       &kp DOWN       &kp UP  &kp RIGHT  &trans
-&trans   &kp 0            &kp 0        &kp 0   &kp 0  &trans  &trans  &trans  &trans      &trans     &kp INSERT  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP    &kp END  &trans
-&trans  &trans           &trans       &trans   &none  &trans  &trans                  &kp DELETE  &kp BACKSPACE   &kp TAB         &trans       &trans     &trans  &trans
+&trans  &trans           &trans       &trans  &trans  &trans                                             &trans    &trans         &trans       &trans   &trans  &trans
+&trans   &none        &kp LG(C)    &kp LG(V)   &none  &trans  &trans                      &trans          &kp 0     &kp 0   &kp UP_ARROW        &kp 0    &none  &trans
+&trans   &kp 0  &kp LG(LS(TAB))  &kp LG(TAB)   &kp 0  &trans  &trans                      &trans     &caps_word  &kp LEFT       &kp DOWN    &kp RIGHT    &kp 0  &trans
+&trans   &kp 0            &kp 0        &kp 0   &kp 0  &trans  &trans  &trans  &trans      &trans     &kp INSERT  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &trans
+&trans  &trans           &trans       &trans   &none  &trans  &trans                  &kp DELETE  &kp BACKSPACE   &kp TAB         &trans       &trans   &trans  &trans
             >;
         };
 
