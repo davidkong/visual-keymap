@@ -72,11 +72,11 @@
             // | CRTL  | ALT | GUI | LOWER |    GUI    | LOWER | SPACE   | --- | DEL  | SPACE |     RAISE     | LEFT  | DOWN | UP |   RIGHT   |
 
             bindings = <
-&kp LS(LA(LC(LG(M))))                 &none             &none             &none                &none         &none                                              &none                     &none             &none             &none                 &none  &none
-                &none             &kp GRAVE         &kp COMMA        &kp PERIOD                &kp P         &kp Y        &none                    &none        &kp F                     &kp G             &kp C             &kp R                 &kp L  &none
-                &none  &hm_l LEFT_CONTROL A  &hm_l LEFT_ALT O  &hm_l LEFT_GUI E  &hm_shift_l LSHFT U         &kp I        &none                    &none        &kp D  &hm_shift_r LEFT_SHIFT H  &hm_r LEFT_GUI T  &hm_r LEFT_ALT N  &hm_r LEFT_CONTROL S  &none
-                &none                 &none             &kp Q             &kp J                &kp K         &kp X        &none  &none  &none      &none        &kp B                     &kp M             &kp W             &kp V                 &kp Z  &none
-                &none                 &none             &none             &none   &lt 4 SINGLE_QUOTE  &lt 3 ESCAPE  &lt 5 UNDER                &lt 6 RET  &lt 2 SPACE           &lt 1 BACKSPACE             &none             &none                 &none  &none
+&kp LS(LA(LC(LG(M))))                 &none             &none             &none                &none               &none                                                  &none                     &none             &none             &none                 &none  &none
+                &none             &kp GRAVE         &kp COMMA        &kp PERIOD                &kp P               &kp Y        &none                    &none            &kp F                     &kp G             &kp C             &kp R                 &kp L  &none
+                &none  &hm_l LEFT_CONTROL A  &hm_l LEFT_ALT O  &hm_l LEFT_GUI E  &hm_shift_l LSHFT U               &kp I        &none                    &none            &kp D  &hm_shift_r LEFT_SHIFT H  &hm_r LEFT_GUI T  &hm_r LEFT_ALT N  &hm_r LEFT_CONTROL S  &none
+                &none                 &none             &kp Q             &kp J                &kp K               &kp X        &none  &none  &none      &none            &kp B                     &kp M             &kp W             &kp V                 &kp Z  &none
+                &none                 &none             &none             &none         &lt 3 ESCAPE  &lt 4 SINGLE_QUOTE  &lt 5 UNDER                &lt 6 RET  &lt 1 BACKSPACE               &lt 2 SPACE             &none             &none                 &none  &none
             >;
         };
 
