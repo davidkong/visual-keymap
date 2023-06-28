@@ -123,11 +123,11 @@
             // | CRTL  | ALT   |  GUI     |   LOWER   |      GUI        | LOWER | SPACE   | --- | DEL  | SPACE |   RAISE   | LEFT | DOWN | UP  |   RIGHT    |
 
             bindings = <
-&trans                                   &trans                &trans                    &trans                      &trans  &trans                                                 &trans            &trans         &trans             &trans   &trans  &trans
-&trans                                    &none         &kp LG(TILDE)                  &swapper                       &none  &trans  &trans                      &trans              &kp 0  &kp LG(LA(LEFT))   &kp UP_ARROW  &kp LA(LG(RIGHT))    &none  &trans
-&trans  &hm_l LEFT_CONTROL LS(LC(LG(NUMBER_4)))  &hm_l LEFT_ALT LG(C)  &hm_l LEFT_COMMAND LG(V)  &hm_l LEFT_SHIFT LG(LS(A))  &trans  &trans                      &trans         &caps_word          &kp LEFT       &kp DOWN          &kp RIGHT    &kp 0  &trans
-&trans                                    &kp 0                 &kp 0     &kp LS(LA(LC(LG(B))))               &kp LC(MINUS)  &trans  &trans  &trans  &trans      &trans         &kp INSERT          &kp HOME  &kp PAGE_DOWN        &kp PAGE_UP  &kp END  &trans
-&trans                                   &trans                &trans                    &trans                       &none  &trans  &trans                  &kp RETURN  &kp RA(BACKSPACE)           &kp TAB         &trans             &trans   &trans  &trans
+&trans                                   &trans                &trans                    &trans                      &trans  &trans                                          &trans            &trans         &trans             &trans   &trans  &trans
+&trans                                    &none         &kp LG(TILDE)                  &swapper                       &none  &trans  &trans                      &trans       &kp 0  &kp LG(LA(LEFT))   &kp UP_ARROW  &kp LA(LG(RIGHT))    &none  &trans
+&trans  &hm_l LEFT_CONTROL LS(LC(LG(NUMBER_4)))  &hm_l LEFT_ALT LG(C)  &hm_l LEFT_COMMAND LG(V)  &hm_l LEFT_SHIFT LG(LS(A))  &trans  &trans                      &trans  &caps_word          &kp LEFT       &kp DOWN          &kp RIGHT    &kp 0  &trans
+&trans                                    &kp 0                 &kp 0     &kp LS(LA(LC(LG(B))))               &kp LC(MINUS)  &trans  &trans  &trans  &trans      &trans  &kp INSERT          &kp HOME  &kp PAGE_DOWN        &kp PAGE_UP  &kp END  &trans
+&trans                                   &trans                &trans                    &trans                       &none  &trans  &trans                  &kp RETURN       &none           &kp TAB         &trans             &trans   &trans  &trans
             >;
         };
 
