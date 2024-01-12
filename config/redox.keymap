@@ -15,55 +15,50 @@
         hm_l: hm_l {
             compatible = "zmk,behavior-hold-tap";
             label = "DUMMY";
-            bindings =
-                <&kp>,
-                <&kp>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <3333>;
         };
+
         hm_r: hm_r {
             compatible = "zmk,behavior-hold-tap";
             label = "DUMMY2";
-            bindings =
-                <&kp>,
-                <&kp>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <3333>;
         };
+
         hm_shift_l: hm_shift_l {
             compatible = "zmk,behavior-hold-tap";
             label = "DUMMY3";
-            bindings =
-                <&kp>,
-                <&kp>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <3333>;
         };
+
         hm_shift_r: hm_shift_r {
             compatible = "zmk,behavior-hold-tap";
             label = "DUMMY4";
-            bindings =
-                <&kp>,
-                <&kp>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <3333>;
         };
+
         swapper: dummyswapper {
             compatible = "zmk,behavior-caps-word";
             label = "DUMMYSWAPPER";
             #binding-cells = <0>;
             continue-list = <E>;
         };
+
         cappy: cappy {
             compatible = "zmk,behavior-hold-tap";
             label = "CAPPY";
-            bindings =
-                <&kp>,
-                <&sk>;
+            bindings = <&kp>, <&sk>;
 
             #binding-cells = <2>;
             tapping-term-ms = <100>;
@@ -100,7 +95,7 @@
 
             bindings = <
 &trans  &trans  &trans        &trans        &trans        &trans                                     &trans  &trans                &trans                    &trans                 &trans             &trans
-&trans  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp 0      &trans                  &trans  &trans  &trans                &trans                    &trans                 &trans             &trans
+&trans  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp 0      &trans                  &trans  &trans  &trans                &kp COLON                 &trans                 &trans             &trans
 &trans  &none   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS   &trans                  &trans  &trans  &hm_r RIGHT_SHIFT AT  &hm_r LEFT_COMMAND LS(G)  &hm_r LEFT_ALT DOLLAR  &kp RIGHT_CONTROL  &trans
 &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &trans                &trans                    &trans                 &trans             &trans
 &trans  &trans  &trans        &trans        &kp NUMBER_0  &kp MINUS  &kp 0                   &trans  &none   &trans                &trans                    &trans                 &trans             &trans
